@@ -24,3 +24,5 @@ HOST: Ubuntu 14.04
 ~$ echo "MACHINE = 'zedboard-zynq7'" >> conf/local.conf
 
 ~$ bitbake zynq-minimal-image
+
+After build successful, your rootfs will be in folder ~/working/build/tmp/deploy/image/*.tar.gz 
