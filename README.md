@@ -25,7 +25,7 @@ HOST MACHINE: Ubuntu 14.04
 
 ~$ bitbake asterisk
 
-# The current libxml2 still not link to sysroot to build asterisk. So we need copy manualy to its sysroot folder
+ The current libxml2 still not link to sysroot to build asterisk. So we need copy manualy to its sysroot folder
 
 ~$ bitbake libxml2
 
@@ -33,4 +33,4 @@ HOST MACHINE: Ubuntu 14.04
 
 ~$ bitbake zynq-ip-pbx-image
 
-# Please check ~/working/build3/tmp/deploy/images/microzed-zynq7 folder. Your rootfs will be *.tar.gz or you can use ramdisk *.cpio.gz.u-boot (can rename it to *.image.gz)
+Please check ~/working/build3/tmp/deploy/images/microzed-zynq7 folder. Your rootfs will be *.tar.gz or you can use ramdisk *.cpio.gz.u-boot (can rename it to *.image.gz)
