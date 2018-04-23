@@ -6,6 +6,7 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384
 IMAGE_INSTALL = " \
         ${CORE_BOOT_MINIMAL} \
         ${CORE_IMAGE_EXTRA_INSTALL} \
+	${ZYNQ_PKGS_INSTALL} \
 "
 CORE_BOOT_MINIMAL = " \
         base-files \
