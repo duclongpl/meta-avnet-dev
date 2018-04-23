@@ -11,6 +11,8 @@ HOST MACHINE: Ubuntu 14.04
 
 ~$ cd ~/working/meta-example-dev 
 
+~$ git checkout IP_PBX
+
 ~$ git submodule init 
 
 ~$ git submodule update 
