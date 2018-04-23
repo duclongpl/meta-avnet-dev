@@ -9,7 +9,7 @@ HOST MACHINE: Ubuntu 14.04
 
 ~$ git clone https://github.com/duclongpl/meta-example-dev.git 
 
-~$ cd ~/working/meta-dev 
+~$ cd ~/working/meta-example-dev 
 
 ~$ git submodule init 
 
@@ -34,3 +34,4 @@ HOST MACHINE: Ubuntu 14.04
 ~$ bitbake zynq-ip-pbx-image
 
 Please check ~/working/build3/tmp/deploy/images/microzed-zynq7 folder. Your rootfs will be *.tar.gz or you can use ramdisk *.cpio.gz.u-boot (can rename it to *.image.gz)
+If you want to add an other package like asterisk into your rootfs. Please add it into meta-example-dev/meta-image/recipes-image/zynq-ip-pbx-image.bb
